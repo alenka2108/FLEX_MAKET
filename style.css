@@ -51,7 +51,7 @@ a.nav_m:hover {
   padding: 20px 45px 20px 45px;
 }
 
-h1 {
+.header h1 {
   font-family: "Roboto Thin", sans-serif;
   font-size: 60px;
   color: #ebeced;
@@ -147,7 +147,7 @@ h2 {
   display: block;
   text-align: left;
   padding: 300px 15px 285px 15px;
-  width: 720px;
+  width: 750px;
 
 }
 
@@ -192,12 +192,12 @@ padding-left: 0;
 
 .info_grupa {
   padding-top: 220px;
-  margin: 0 auto;
+  margin: 0;
 }
 /*секция drag*/
 
 section.sections.drag_drop{
- padding: 0 250px 0 0;
+
 }
 .drag_drop {
   background: #0e1a35 url(img/Graph.png) no-repeat fixed center 18.18%;
@@ -207,4 +207,39 @@ section.sections.drag_drop{
 .drag {
   display: flex;
   flex-flow: row wrap;
+
+}
+/*ЧЕРНОВИК РАЗМЕРОВ*/
+.blocks {
+  padding: 170px 15px 180px 145px;
+  width: 1000px;
+  height: 750px;
+}
+.drag_info{
+  padding: 235px 15px 220px 160px;
+  margin: 0;
+  width: 750px;
+}
+/*---------------------*/
+.drag_info{
+  display: block;
+  text-align: left;
+}
+.drag_info h1{
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 60px;
+  color: #f0f0f0;
+  padding-bottom: 65px;
+}
+.drag_info p{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #7f8da9;
+  padding-bottom: 50px;
+}
+p.p2{
+  padding-bottom: 57px;
+}
+.img_left{
+  padding-right: 20px;
 }
