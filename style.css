@@ -1,7 +1,8 @@
-body{
+body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
+/*секция header*/
 .sections {
   display: block;
   margin: 0 auto;
@@ -10,15 +11,18 @@ body{
   text-align: center;
 
 }
+
 .header {
   background: #0e1a35 url(img/Graph.png) no-repeat fixed center 18.18%;
   background-attachment: scroll;
+  height: 1100px;
 }
 
 .banner {
   display: flex;
   align-items: center;
 }
+
 .logotip {
   margin-top: 60px;
   margin-left: 160px;
@@ -27,15 +31,17 @@ body{
 .nav {
   margin-left: auto;
   margin-right: 150px;
- margin-top: 50px;
+  margin-top: 50px;
 }
+
 a.nav_m {
   color: #f0f0f0;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-decoration: none;
   padding: 20px 25px;
- }
+}
+
 a.nav_m:hover {
   border-style: solid;
   border-width: 1px;
@@ -44,12 +50,14 @@ a.nav_m:hover {
   color: rgb(85, 132, 255);
   padding: 20px 45px 20px 45px;
 }
+
 h1 {
   font-family: "Roboto Thin", sans-serif;
   font-size: 60px;
   color: #ebeced;
   padding-top: 160px;
 }
+
 h2 {
   font-family: "Roboto Regular", sans-serif;
   font-size: 36px;
@@ -57,9 +65,13 @@ h2 {
   padding-top: 40px;
   padding-bottom: 90px;
 }
-.button {
+
+.button_panel {
   display: inline-block;
-  margin-bottom:  580px;
+
+}
+
+.button {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -68,16 +80,131 @@ h2 {
   background-color: #5584ff;
   color: #f0f0f0;
   text-decoration: none;
+
 }
+/*картинка между секциями*/
+.panel {
+  display: inline-block;
+  text-align: center;
+  margin-top: 88px;
+  box-shadow: -10px -10px 70px #132449;
+}
+
+/*секция box*/
 .boxes {
   display: flex;
   flex-flow: row wrap;
-  align-content: center;
+  padding: 260px 12.5% 0 12.5%;
 }
+
 .boxes div {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 470px;
+  align-self: baseline;
+  padding: 0 15px 0 15px;
 
+}
 
- }
-.znak {
+.h_znak {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
 
+.boxes div p {
+  color: #8492af;
+  font-size: 18px;
+  margin: 0px 55px 0 55px;
+}
 
+.boxes .more {
+  margin-top: 55px;
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadee7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button_znak {
+  text-decoration: none;
+  color: #4e576b;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info_box {
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 12.5%;
+}
+
+.info {
+  display: block;
+  text-align: left;
+  padding: 300px 15px 285px 15px;
+  width: 720px;
+
+}
+
+.info h1 {
+  font-family: "Roboto Thin", sans-serif;
+  color: #222222;
+  padding-top: 0px;
+}
+
+.info p {
+  padding-top: 60px;
+  color: #b4bccd;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.info ul li {
+  color: #5886ff;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+li.li_1 {
+  padding-top: 70px;
+
+}
+.li_1 img, .li_2 img{
+  padding-right: 20px;
+}
+li.li_2 {
+  padding-top: 50px;
+  align-self: baseline;
+}
+.info ul {
+  display: flex;
+  flex-flow: column;
+
+padding-left: 0;
+  list-style: none;
+}
+
+.info_grupa {
+  padding-top: 220px;
+  margin: 0 auto;
+}
+/*секция drag*/
+
+section.sections.drag_drop{
+ padding: 0 250px 0 0;
+}
+.drag_drop {
+  background: #0e1a35 url(img/Graph.png) no-repeat fixed center 18.18%;
+  background-attachment: scroll;
+  height: 750px;
+}
+.drag {
+  display: flex;
+  flex-flow: row wrap;
+}
