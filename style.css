@@ -117,7 +117,7 @@ h2 {
 .boxes div p {
   color: #8492af;
   font-size: 18px;
-  margin: 0px 55px 0 55px;
+  margin: 0 55px 0 55px;
 }
 
 .boxes .more {
@@ -154,7 +154,7 @@ h2 {
 .info h1 {
   font-family: "Roboto Thin", sans-serif;
   color: #222222;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .info p {
@@ -180,7 +180,7 @@ li.li_1 {
 }
 li.li_2 {
   padding-top: 50px;
-  align-self: baseline;
+
 }
 .info ul {
   display: flex;
@@ -202,7 +202,6 @@ section.sections.drag_drop{
 .drag_drop {
   background: #0e1a35 url(img/Graph.png) no-repeat fixed center 18.18%;
   background-attachment: scroll;
-  height: 750px;
 }
 .drag {
   display: flex;
@@ -211,12 +210,12 @@ section.sections.drag_drop{
 }
 /*ЧЕРНОВИК РАЗМЕРОВ*/
 .blocks {
-  padding: 170px 15px 180px 145px;
+  padding: 170px 15px 130px 145px;
   width: 1000px;
   height: 750px;
 }
 .drag_info{
-  padding: 235px 15px 220px 160px;
+  padding: 220px 15px 200px 160px;
   margin: 0;
   width: 750px;
 }
@@ -229,17 +228,122 @@ section.sections.drag_drop{
   font-family: "Roboto Thin", sans-serif;
   font-size: 60px;
   color: #f0f0f0;
-  padding-bottom: 65px;
+  padding-bottom: 45px;
 }
 .drag_info p{
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #7f8da9;
-  padding-bottom: 50px;
 }
 p.p2{
-  padding-bottom: 57px;
+  padding-bottom: 50px;
+}
+p.p1{
+  padding-bottom: 40px;
 }
 .img_left{
   padding-right: 20px;
+}
+/*секция powerfull*/
+.sections.powerfull{
+  background-color: #f6f7fa;
+}
+.img_powerfull {
+  padding: 0 50px;
+  margin: 0;
+}
+.sections.powerfull h1 {
+  padding-top: 105px;
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 60px;
+  padding-bottom: 60px;
+}
+.p_powerfull {
+  padding-bottom: 85px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #7f8da9;
+}
+/*секция с ценами*/
+
+.prise h1{
+  padding-top: 100px;
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 60px;
+  padding-bottom: 88px;
+}
+
+.prise_blocks{
+  display: flex;
+  flex-flow: row wrap;
+justify-content: center;
+}
+.prise_block {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 360px;
+  align-items: center;
+ max-width: 18%;
+  box-shadow: 54px 54px 54px #f5f5f6;
+ margin: 0 70px 0 70px;
+}
+
+
+.menu_prise p{
+  display: flex;
+  flex-flow: row;
+  align-self: center;
+  padding-bottom: 20px;
+ }
+.menu_prise{
+  padding-bottom: 26px;
+  color:#a3adc3;
+}
+p.p_plan{
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.plan, .period {
+  font-family: "Roboto",sans-serif;
+  font-size: 24px;
+}
+.period{
+  color: #8492af;
+}
+.dollar, .summa{
+  font-family: "Roboto",sans-serif;
+  font-weight: bold;
+}
+.dollar{
+  font-size: 40px;
+}
+.summa{
+  font-size: 72px;
+}
+.p_summa {
+  padding-bottom: 33px;
+}
+.yes, .no {
+  padding-right: 14px;
+}
+.prise_text{
+  color: #8492af;
+  padding-top: 110px;
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+}
+.button_prise{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 40px;
+  max-width: 10.2%;
+  padding: 18px 62px;
+  background-color: #5584ff;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.prise_bottun{
+  padding-top: 65px;
+  padding-bottom: 105px;
 }
