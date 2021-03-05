@@ -347,3 +347,45 @@ p.p_plan{
   padding-top: 65px;
   padding-bottom: 105px;
 }
+/*Секция footer*/
+.footer{
+  background-color: #0e1a35;
+}
+.panel_footer {
+  display: flex;
+  align-items: center;
+  padding: 60px 12.5% 63px 12.5%;
+}
+
+.prava {
+  margin-top: 68px;
+  margin-bottom: 63px;
+  color: #8492af;
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+}
+.nav_footer {
+  margin-left: auto;
+  margin-right: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+a.footer_m {
+  color: #8492af;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.fasebook {
+  padding-left: 25px;
+}
+.twitter {
+  padding: 0 20px;
+}
+.google {
+  padding-right: 15px;
+}
