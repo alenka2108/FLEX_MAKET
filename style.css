@@ -203,23 +203,112 @@ section.sections.drag_drop{
   background: #0e1a35 url(img/Graph.png) no-repeat fixed center 18.18%;
   background-attachment: scroll;
 }
-.drag {
+.drag_drop {
   display: flex;
   flex-flow: row wrap;
 
 }
 /*ЧЕРНОВИК РАЗМЕРОВ*/
 .blocks {
-  padding: 170px 15px 130px 145px;
-  width: 1000px;
-  height: 750px;
+  padding: 131px 15px 187px 145px;
+  width: 50%;
+
 }
+
+.block {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 390px;
+  padding-left: 0;
+
+}
+.bl {
+  width: 390px;
+  height: 100px;
+   display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 13px;
+}
+
+.bl.block_progress, .bl.block_comleted{
+  height: 89px;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  font-family: "Roboto Medium",sans-serif;
+  color: #ffffff;
+  font-size: 30.59px;
+  margin-bottom: 0;
+}
+.progress {
+  margin-left: auto;
+}
+.pr {
+  color: #8492af;
+}
+
+.bl.block_new, .bl.block_daily, .bl.block_business, .bl.block_progress{
+  margin-right: 50px;
+}
+.bl.block_new, .bl.block_daily, .bl.block_business, .bl.block_free, .bl.block_iconset{
+  background-color: #ffffff;
+}
+.bl.block_drop{
+  color: #8492af;
+  border: 2px;
+  border-style: dashed;
+  align-items: center;
+  justify-content: center;
+}
+.buckva{
+  background-color: #5584ff;
+  color: #ffffff;
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin: 30px 21px 30px 32px;
+}
+
+.text{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 233px;
+}
+
+.znak_tck{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+}
+.zn_text{
+  font-size: 12px;
+  color: #8694b1;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.zn_text.zn_red{
+  color: #f85086;
+}
+.img_text, .img_compl{
+  padding-right: 8px;
+}
+.zn_text.zn_green {
+  color: #6bd174;
+}
+/*---------------------*/
 .drag_info{
   padding: 220px 15px 200px 160px;
   margin: 0;
   width: 750px;
 }
-/*---------------------*/
 .drag_info{
   display: block;
   text-align: left;
