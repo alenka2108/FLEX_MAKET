@@ -365,17 +365,17 @@ p.p1 {
   background-color: #f6f7fa;
   padding-right: 12.5%;
   padding-left: 12.5%;
-  /*height: 100%;
-  max-height: 1053px;*/
+  height: 100%;
+  max-height: 1053px;
   max-width: 2000px;
   width: 100%;
 }
 .block_power{
   max-width: 1500px;
   width: 100%;
-  max-height: 681px;
+  max-height: 706px;
   height: 100%;
-  padding-bottom: 25px;
+ /* padding-bottom: 25px;*/
 }
 
 .sections.powerfull h1 {
@@ -392,12 +392,11 @@ p.p1 {
   margin-bottom: 80px;
 }
 
-
 .img_powerfull {
   position: relative;
   z-index: 0;
-/*  width: 81.2%;*/
-/*  height: 64.55%;*/
+  width: 85.4%;
+  height: 100%;
 }
 
 h3.text_p_v, h3.text_p_n {
@@ -406,12 +405,13 @@ h3.text_p_v, h3.text_p_n {
   font-size: 24px;
   color: #222222;
  }
+
 h3.text_p_v{
   text-align: left;
   position: relative;
   bottom: 623.8px; /* 595+28.8*/
   /*top: -595px;*/
-  left: 57px;
+  left: 3.8%;
   z-index: 1;
   /*padding-bottom: 10px;*/
 }
